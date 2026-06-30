@@ -28,7 +28,7 @@ const PrototypeBanner = () => {
       className="w-full bg-amber-400 text-amber-950 text-center text-xs font-medium py-1.5 px-4 tracking-wide relative flex items-center justify-center"
     >
       {/* <span className="px-6">{PROTOTYPE_DISCLAIMER}</span> */}
-      <button
+      {/* <button
         type="button"
         onClick={handleDismiss}
         aria-label="Dismiss prototype banner"
@@ -47,7 +47,7 @@ const PrototypeBanner = () => {
             clipRule="evenodd"
           />
         </svg>
-      </button>
+      </button> */}
     </div>
   );
 };
