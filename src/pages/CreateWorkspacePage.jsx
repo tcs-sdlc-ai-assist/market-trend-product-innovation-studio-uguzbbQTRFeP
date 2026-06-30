@@ -149,13 +149,13 @@ const CreateWorkspacePage = () => {
                 Fill in the fields below to create a new innovation workspace.
               </p>
             </div>
-            <Badge
+            {/* <Badge
               label="Prototype"
               variant="warning"
               size="sm"
               rounded
               bordered
-            />
+            /> */}
           </div>
         }
         ariaLabel="Create workspace form"
