@@ -874,7 +874,7 @@ const WorkspaceDetailPage = () => {
               <h1 className="text-xl font-heading font-bold text-neutral-900 leading-tight truncate">
                 {workspace.name || 'Untitled Workspace'}
               </h1>
-              <Badge label="Prototype" variant="warning" size="sm" rounded bordered />
+              {/* <Badge label="Prototype" variant="warning" size="sm" rounded bordered /> */}
             </div>
             <div className="flex items-center gap-3 flex-wrap">
               {formattedCreatedAt && (
