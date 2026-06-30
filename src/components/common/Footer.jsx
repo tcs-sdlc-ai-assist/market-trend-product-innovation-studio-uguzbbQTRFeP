@@ -18,11 +18,11 @@ const Footer = () => {
     >
       <div className="max-w-dashboard mx-auto px-4 sm:px-6 lg:px-8">
         {/* Prototype Disclaimer */}
-        <div className="py-3 border-b border-dashboard-border">
+        {/* <div className="py-3 border-b border-dashboard-border">
           <p className="text-2xs text-neutral-500 text-center leading-relaxed">
             {PROTOTYPE_DISCLAIMER}
           </p>
-        </div>
+        </div> */}
 
         {/* Footer Content */}
         <div className="py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
