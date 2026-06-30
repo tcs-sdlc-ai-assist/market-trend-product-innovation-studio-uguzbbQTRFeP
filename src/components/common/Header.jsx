@@ -108,9 +108,9 @@ const Header = () => {
             ))}
 
             {/* Prototype Badge */}
-            <span className="ml-3 inline-flex items-center px-2 py-0.5 rounded-full text-2xs font-medium bg-amber-100 text-amber-800 border border-amber-200 select-none">
+            {/* <span className="ml-3 inline-flex items-center px-2 py-0.5 rounded-full text-2xs font-medium bg-amber-100 text-amber-800 border border-amber-200 select-none">
               Prototype
-            </span>
+            </span> */}
           </nav>
 
           {/* Mobile Menu Toggle */}
