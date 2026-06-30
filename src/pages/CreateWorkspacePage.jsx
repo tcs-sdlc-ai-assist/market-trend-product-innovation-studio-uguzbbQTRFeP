@@ -183,7 +183,7 @@ const CreateWorkspacePage = () => {
             clipRule="evenodd"
           />
         </svg>
-        <div className="flex flex-col gap-0.5">
+        {/* <div className="flex flex-col gap-0.5">
           <h4 className="text-xs font-semibold text-amber-800">
             Prototype — Local Storage Only
           </h4>
@@ -192,7 +192,7 @@ const CreateWorkspacePage = () => {
             server and will be lost if you clear your browser storage. This is a demonstration
             prototype only.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
