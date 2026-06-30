@@ -169,7 +169,7 @@ const CreateWorkspacePage = () => {
       </Card>
 
       {/* Info Banner */}
-      <div className="flex items-start gap-2 bg-amber-50 border border-amber-200 rounded-lg px-4 py-3">
+      {/* <div className="flex items-start gap-2 bg-amber-50 border border-amber-200 rounded-lg px-4 py-3">
         <svg
           className="h-4 w-4 text-amber-500 shrink-0 mt-0.5"
           xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +183,7 @@ const CreateWorkspacePage = () => {
             clipRule="evenodd"
           />
         </svg>
-        {/* <div className="flex flex-col gap-0.5">
+        <div className="flex flex-col gap-0.5">
           <h4 className="text-xs font-semibold text-amber-800">
             Prototype — Local Storage Only
           </h4>
@@ -192,8 +192,8 @@ const CreateWorkspacePage = () => {
             server and will be lost if you clear your browser storage. This is a demonstration
             prototype only.
           </p>
-        </div> */}
-      </div>
+        </div>
+      </div> */}
     </div>
   );
 };
